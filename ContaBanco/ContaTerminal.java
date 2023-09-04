@@ -26,7 +26,6 @@ public class ContaTerminal {
 
        String nomeCliente = scanner.next();
 
-
        
        System.out.print("Digite o saldo inicial: ");
 
@@ -47,10 +46,10 @@ public class ContaTerminal {
        
        System.out.println("\n Informações do cliente");
        System.out.println("-----------------------------------------");
-       System.out.println("Nome     : " + nomeCliente);
-       System.out.println("Numero da conta    : " + numeroConta);
-       System.out.println("Agência : " + agencia);
-       System.out.println("Saldo da conta : " + saldo);
+       System.out.println("Nome: " + nomeCliente);
+       System.out.println("Numero da conta: " + numeroConta);
+       System.out.println("Agência: " + agencia);
+       System.out.println("Saldo da conta: " + saldo);
        System.out.println("-----------------------------------------");
 
    }
