@@ -1,4 +1,4 @@
-//Essa classe representa a exceção de negócio no sistema
+//Essa classe representa a exceção de negócio
 
 public class ParametrosInvalidosException extends Exception {
 	 public ParametrosInvalidosException(String message) {
